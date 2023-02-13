@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: Roboto;
     background: #fffded;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -14,6 +14,11 @@ body {
 
 .main-title {
     padding: 55px 0;
+    color: #753C20;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
 }
 
 .block {
@@ -32,16 +37,34 @@ img {
 
 .title {
     margin-bottom: 55px;
+    color: #D89B82;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
 }
 
-.text {}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.09px;
+}
 
 .join-title {
     margin-bottom: 34px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #E78326;
 }
 
 .join-text {
     margin-bottom: 55px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
 }
 
-.email {}
+.email {
+    color: #E78326;
+    text-decoration: none;
+}
